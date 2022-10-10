@@ -12,17 +12,23 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation ('com.github.KaptainWutax:BiomeUtils:-SNAPSHOT'){
+    testCompile group: 'junit', name: 'junit', version: '4.13.2'
+    implementation ('com.github.KaptainWutax:BiomeUtils:166f1757be3e1e036f0b25f9c063df3f863a1c49'){
         transitive = false
     }
-    implementation ('com.github.KaptainWutax:SeedUtils:-SNAPSHOT'){
+    implementation ('com.github.KaptainWutax:SeedUtils:b6a383113ce5d8d09a59e91b28ff064fb97c0709'){
         transitive = false
     }
-    implementation ('com.github.KaptainWutax:MathUtils:-SNAPSHOT'){
+    implementation ('com.github.KaptainWutax:MathUtils:5531c4a87b0f1bb85d1dab2bdd18ce375400626a'){
         transitive = false
     }
-    implementation ('com.github.KaptainWutax:FeatureUtils:-SNAPSHOT'){
+    implementation ('com.github.KaptainWutax:FeatureUtils:fa1aea85d0d07a46a7f3fd686eedb8bdddb96653'){
+        transitive = false
+    }
+    implementation ('com.github.KaptainWutax:MCUtils:1bc39b7c89498c8a045c6944f18465238f9bb4cc'){
+        transitive = false
+    }
+    implementation ('com.github.KaptainWutax:NoiseUtils:2cf64e1d2e7e674fbf5b7247f16e8dc56ae2a31c'){
         transitive = false
     }
 gradle.projectsEvaluated {
